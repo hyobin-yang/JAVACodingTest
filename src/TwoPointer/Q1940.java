@@ -34,6 +34,8 @@ public class Q1940 {
             }
         }
 
+
+
         System.out.print(cnt);
 
     }
