@@ -26,6 +26,43 @@
    - 두 포인터를 사용하여 합이나 차를 계산
 
 
+## 덱
+- 자바에서의 Deque은 인터페이스로 구현되어 있음
+- ArrayDeque, LinkedBlockingDeque, ConcurrentLinkedDeque, LinkedList 등의 클래스 존재
+
+1. 생성
+   - Deque<자료형> deque = new LinkedList<>(); 
+   - LinkedList 자리에 필요한 클래스 넣기
+
+2. 메서드 사용
+   - deque.addFirst(); // 덱 앞쪽에 데이터 삽입, 용량 초과시 Exception
+   - deque.offerFirst(); // 덱 앞쪽에 데이터를 삽입 후 true 반환, 용량 초과 시 false
+   
+   - deque.addLast(); // 덱 뒤쪽에 데이터 삽입, 용량 초과 시 Exception
+   - deque.add(); // addLast와 동일
+   - deque.offerLast();
+   - deque.offer(); //offerLast와 동일
+
+   - deque.removeFirst(); // 덱의 앞에서 제거, 비어있으면 예외
+   - deque.remove(); // removeFirst()와 동일
+   - deque.poll(); // 덱의 앞에서 제거, 비어있으면 null 리턴
+   - deque.pollFirst(); // poll()과 동일
+
+   - deque.removeLast(); // 덱의 뒤에서 제거, 비어있으면 예외
+   - deque.pollLast(); // 덱의 뒤에서 제거, 비어있으면 null 리턴
+
+   - deque.push(); // addFirst()와 동일
+   - deque.pop(); // removeFirst()와 동일
+
+   - deque.getFirst(); // 첫 번째 값 확인, 비어있으면 예외
+   - deque.peekFirst(); // 첫 번째 값 확인, 비어있으면 null
+   - deque.peek(); // peekFirst()와 동일
+
+   - deque.getLast(); // 마지막 값 확인, 비어있으면 예외
+   - deque.peekLast(); // 마지막 값 확인, 비어있으면 null
+
+   - deque.contain(Object o); // Object 인자와 동일한 엘리먼트 포함되어 있는지 확인
+   - deque.size(); // 덱에 들어있는 엘리먼트 개수
 
 
 
