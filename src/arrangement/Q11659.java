@@ -1,4 +1,4 @@
-package arrangement_list;
+package arrangement;
 
 import java.util.Scanner;
 
