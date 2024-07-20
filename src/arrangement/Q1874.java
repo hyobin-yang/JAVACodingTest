@@ -20,7 +20,7 @@ public class Q1874 {
         }
 
         int i=1;
-        StringBuilder result = new StringBuilder();
+        StringBuilder result = new StringBuilder(); // 메모리초과 방지
 
         while(true){
 
