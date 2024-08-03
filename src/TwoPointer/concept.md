@@ -64,7 +64,8 @@
    - deque.contain(Object o); // Object 인자와 동일한 엘리먼트 포함되어 있는지 확인
    - deque.size(); // 덱에 들어있는 엘리먼트 개수
 
-
+   - deque.isEmpty()
+   - !deque.isEmpty()
 
 
 
