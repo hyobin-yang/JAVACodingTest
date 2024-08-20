@@ -2,8 +2,9 @@ package grid;
 import java.util.Scanner;
 
 // 정사각형 순회
+// 코드트리/알고리즘입문/최고의33위치
 
-public class Grid2D {
+public class SimulationQ1 {
     public static final int MAX_N = 20;
 
     public static int n;
